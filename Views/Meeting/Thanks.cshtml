@@ -1,0 +1,24 @@
+@model UserInfo
+
+@{
+    ViewBag.Title = "Muraciet Otagi";
+}
+
+<main class="text-center">
+<h1 class="h4">Muraciet Otagi</h1>
+
+@if(Model.WillAttend == true)
+{
+    <p>Tewekkurler @Model.Name. Iclasda sizinle birlikde @ViewBag.UserCount nefer ishtirak edecek</p>
+    <a class="btn btn-sm btn-outline-primary" href="/meeting/list">Ishtirakcilari Listele</a>
+}
+else
+{
+    <p>@Model.Name , bize qoshulmamaginiza gore tessuflendik</p>
+    <a class="btn btn-sm btn-outline-primary" href="/meeting/apply">Muraciet et</a>
+}
+
+
+
+
+</main>
