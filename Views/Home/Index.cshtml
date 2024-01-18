@@ -1,7 +1,24 @@
+@model MeetingInfo
+
 @{
+    ViewBag.Title = "Home";
     Layout="_Layout2";
 }
 
-<h1 class="h4">Salam</h1>
+<main class="text-center">
+<h1 class="h4">@ViewBag.Salamlama, @ViewBag.UserName</h1>
 <p>Iclasda ishtirak durumunuzu bildirin.</p>
+
+
+<div class="card my-2">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Mekan: @Model.Location</li>
+        <li class="list-group-item">@Model.Date.ToString("dd/MM/yyyy HH:mm:ss") tarixinde kecirilecek </li>
+        <li class="list-group-item">@Model.NumberOfPeople nefer qatilacaq</li>
+    </ul>
+</div>
+
+
 <a class="btn btn-sm btn-outline-primary" asp-controller="meeting" asp-action="apply">Muraciet et</a>
+
+</main>
