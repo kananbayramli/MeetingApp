@@ -25,3 +25,5 @@ C:\Users\Kanan\Desktop\MeetingApp\obj\Debug\net7.0\MeetingApp.genruntimeconfig.c
 C:\Users\Kanan\Desktop\MeetingApp\obj\Debug\net7.0\ref\MeetingApp.dll
 C:\Users\Kanan\Desktop\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cache
 C:\Users\Kanan\Desktop\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cs
+C:\Users\Kanan\Desktop\MeetingApp\bin\Debug\net7.0\libman.json
+C:\Users\Kanan\Desktop\MeetingApp\bin\Debug\net7.0\MeetingApp.staticwebassets.runtime.json
