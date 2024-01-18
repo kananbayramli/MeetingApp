@@ -1,27 +1,29 @@
+@model UserInfo
+
 @{
     ViewBag.Title = "Ishtirak Formu";
 }
 
 <h1 class="h4 text-center">Iclasda ishtirak formu</h1>
-<form method="post">
+<form method="post" action="/meeting/apply">
     <div class="mb-3">
-        <label for="Name" class="foorm-label">Ad Soyad</label>
-        <input type="text" name="Name" id="Name" class="form-control">
+        <label asp-for="Name" class="foorm-label">Ad Soyad</label>
+        <input asp-for="Name" class="form-control">
     </div>
 
     <div class="mb-3">
-        <label for="Phone" class="foorm-label">Telefon</label>
-        <input type="text" name="Phone" id="Phone" class="form-control">
+        <label asp-for="Phone" class="foorm-label">Telefon</label>
+        <input asp-for="Phone" class="form-control">
     </div>
 
     <div class="mb-3">
-        <label for="Email" class="foorm-label">Email</label>
-        <input type="email" name="Email" id="Email" class="form-control">
+        <label asp-for="Email" class="foorm-label">Email</label>
+        <input asp-for="Email" class="form-control">
     </div>
 
     <div class="mb-3">
-        <label for="WillAttend" class="foorm-label">Ishtirak edecekmisiniz?</label>
-        <select name="WillAttend" id="WillAttend" class="form-select">
+        <label asp-for="WillAttend" class="foorm-label">Ishtirak edecekmisiniz?</label>
+        <select asp-for="WillAttend" class="form-select">
             <option value="true">Beli, Gelecem</option>
             <option value="false">Xeyr, Gelmeyecem</option>
         </select>
