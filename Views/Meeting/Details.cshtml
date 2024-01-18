@@ -1,0 +1,25 @@
+@model UserInfo
+
+@{
+    ViewBag.Title = "About User";
+}
+
+@{
+    var className = @Model.WillAttend ? "success" : "danger";
+    var durum = @Model.WillAttend ? "Ishtirak edecek" : "Ishtirak ede bilmeyecek";
+}
+
+
+<main class="text-center">
+<h1 class="h4"> About @Model.Name</h1>
+
+    <p>
+        <span class="badge text-bg-@className">@durum</span>
+    </p>
+
+    <p>Ad: @Model.Name</p>
+    <p>Telefon: @Model.Phone</p>
+    <P>Email: @Model.Email</P>
+
+    <a asp-controller="Meeting" asp-action="List" class="btn btn-outline-@className">Ishtirakci Listi</a>
+</main>
