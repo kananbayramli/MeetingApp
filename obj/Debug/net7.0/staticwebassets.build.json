@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M5G+2g6TZU6VbVuk0qSeZra/7wb57Cb2WSpdmXfoCkI=",
+  "Hash": "gybfuBRNA1MS35fOYSu75PsqXK42UTbAAnNfieWQBXs=",
   "Source": "MeetingApp",
   "BasePath": "_content/MeetingApp",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Kanan\\Desktop\\MeetingApp\\wwwroot\\css\\styles.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kanan\\Desktop\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
     {
       "Identity": "C:\\Users\\Kanan\\Desktop\\MeetingApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "SourceId": "MeetingApp",

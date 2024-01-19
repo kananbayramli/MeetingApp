@@ -1,0 +1,8 @@
+.validation-summary-errors{
+    color: rgb(221, 18, 18);
+}
+
+
+.input-validation-error{
+    border: 1px solid  rgb(221, 18, 18);
+}
